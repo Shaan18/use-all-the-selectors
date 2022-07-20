@@ -8,7 +8,11 @@ html {
   box-sizing: inherit;
 }
 
-header footer {
+header {
+  font-size: 1.5rem;
+}
+
+footer {
   font-size: 1.5rem;
 }
 
@@ -24,10 +28,30 @@ nav ul {
   background-color: #eee8d5;
 }
 
-#contents #favs #facts #types {
+#contents {
   color: #93a1a1;
 }
 
-.wrapper .dfn {
-  background-color: #b58900;
+#favs {
+  color: #93a1a1;
+}
+
+#facts {
+  color: #93a1a1;
+}
+
+#types {
+  color: #93a1a1;
+}
+
+#favs ol li:first-child {
+  color: #719e47;
+}
+
+#favs ol li:nth-child {
+  color: #2aa198;
+}
+
+#favs ol li:third {
+  background-color: #657ba3;
 }
